@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Navigation Assignment</string>
+    <string name="general_error_msg">Oops! Something went wrong. Please try after sometime.</string>
+    <string name="source">Tap to choose source if not auto-detected</string>
+    <string name="destination">Tap to choose destination</string>
+    <string name="directions">Directions</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">NAME</string>
+</resources>

@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<group android:id="@+id/menu_group_1">-->
+        <!--<item-->
+            <!--android:id="@+id/menu_direct"-->
+            <!--android:title="My Instagram" />-->
+    <!--</group>-->
+
+    <group
+        android:id="@+id/menu_group_2">
+        <item
+            android:id="@+id/maptype3"
+            android:title="Satellite Map"
+            />
+        <item
+            android:id="@+id/maptype4"
+            android:title="Terrain Map"
+            />
+        <item
+            android:id="@+id/maptype5"
+            android:title="Hybrid Map"
+            />
+        <item
+            android:id="@+id/maptype6"
+            android:title="Normal Map"
+            />
+    </group>
+
+    <group android:id="@+id/menu_group_3">
+        <item
+            android:id="@+id/menu_about"
+            android:title="About" />
+    </group>
+</menu>

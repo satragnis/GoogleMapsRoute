@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "28020004603",
+    "firebase_url": "https://navigation-assignment.firebaseio.com",
+    "project_id": "navigation-assignment",
+    "storage_bucket": "navigation-assignment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28020004603:android:01edde411a4c6f0a",
+        "android_client_info": {
+          "package_name": "com.satragni.navigationassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28020004603-d8l9n3r4tadhiu1dqelidv5vv8hatai7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.satragni.navigationassignment",
+            "certificate_hash": "83029a6bd2e15392c004d28acb4ad8702349858c"
+          }
+        },
+        {
+          "client_id": "28020004603-45nunmbsgdqk9sq1fs5j4flovbckdf62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaOLU1XybZwa59q3bw2uNL8b0CZTzd-SE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28020004603-45nunmbsgdqk9sq1fs5j4flovbckdf62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

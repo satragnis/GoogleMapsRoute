@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/RL"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/seamless_pattern_bg"
+    android:layout_height="match_parent"
+    tools:context="com.satragni.navigationassignment.SplashActivity">
+    <!--app:lottie_fileName="location.json"-->
+    <!--app:lottie_fileName="locatingGPS.json"-->
+    <!--app:lottie_fileName="map_animation.json"-->
+    <!--app:lottie_fileName="bouncy_mapmaker.json"-->
+    <!--app:lottie_fileName="world_locations.json"-->
+    <RelativeLayout
+        android:id="@+id/RRV"
+        android:background="@drawable/seamless_pattern_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/lottieContainer"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:gravity="center"
+                android:background="@drawable/whitecircle"
+                android:layout_centerInParent="true"
+                android:layout_width="100dp"
+                android:layout_height="100dp">
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:id="@+id/animation_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:lottie_fileName="bouncy_mapmaker.json"
+                    app:lottie_loop="true"
+                    app:lottie_autoPlay="true"
+                    app:lottie_enableMergePathsForKitKatAndAbove="true"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

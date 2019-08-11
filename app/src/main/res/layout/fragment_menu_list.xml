@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.satragni.navigationassignment.MenuListFragment">
+
+
+    <FrameLayout
+        android:id="@+id/headerFrame"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:clickable="true">
+        <LinearLayout
+            android:id="@+id/vGlobalMenuHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/ivMenuUserProfilePhoto"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="12dp" />
+
+            <TextView
+                android:id="@+id/Name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textColor="#2d5d82"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!--<ImageButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_margin="16dp"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:src="" />-->
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="#dddddd" />
+    </FrameLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.design.widget.NavigationView
+        android:layout_below="@+id/headerFrame"
+        android:id="@+id/vNavigation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/transparent"
+        app:itemIconTint="#8b8b8b"
+        app:itemTextColor="#666666"
+        app:menu="@menu/drawer_menu"/>
+
+</RelativeLayout>
